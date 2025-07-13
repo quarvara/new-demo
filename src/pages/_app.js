@@ -2,8 +2,6 @@ import { useEffect, useState } from 'react';
 import { useRouter } from 'next/router';
 import { ToastProvider } from 'react-toast-notifications'; 
 import { initFacebookPixel, trackFacebookEvent } from '../lib/facebookPixel';
-import '../styles/Home.module.css'
-import '../styles/globals.css'
 import "bootstrap/dist/css/bootstrap.min.css"; // Import bootstrap CSS
 
 function MyApp({ Component, pageProps }) {
