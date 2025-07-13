@@ -254,7 +254,7 @@ const Payments = () => {
                 else if (attempts === 10) setStatusMsg("Payment verification in progress...");
 console.log("paymentlinkdata",paymentlinkdata['transaction_id']);
 
-                const res = await axios.post(`https://kitchesmisale.vercel.app/api/payment/status`, {
+                const res = await axios.post(`https://new-demo-chi.vercel.app/api/payment/status`, {
                     transaction_id: paymentlinkdata['transaction_id']
                 });
 

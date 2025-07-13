@@ -5,8 +5,8 @@ export default async function handler(req, res) {
     const data = {
         mch_id: MERCHANT_ID_VALUE,
         mch_order_no: 'ORDER' + Date.now(),
-        notifyUrl: 'https://kitchesmisale.vercel.app/',
-        page_url: 'https://kitchesmisale.vercel.app/',
+        notifyUrl: 'https://new-demo-chi.vercel.app/',
+        page_url: 'https://new-demo-chi.vercel.app/',
         trade_amount: '100',
         currency: 'INR',
         pay_type: 'INDIA_EXPRESS',
