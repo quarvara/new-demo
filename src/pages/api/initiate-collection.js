@@ -27,6 +27,8 @@ export default async function handler(req, res) {
 
   try {
     const response = await sendRequest('/api/payGate/payCollect', data);
+        console.log('Payment error:', response);
+
     res.status(200).json(response);
   } catch (error) {
     console.error('Payment error:', error);
